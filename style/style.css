@@ -1211,7 +1211,7 @@ footer>p {
     }
 
     .rigth>.rihgth-bottom>.icen:hover {
-        width: 500px;
+        width: auto;
         transform: none;
         box-shadow: none;
     }
@@ -1410,7 +1410,11 @@ footer>p {
         max-width: 70%;
         height: auto;
     }
-
+    .rigth>.rihgth-bottom>.icen:hover {
+    width: auto;
+    transform:none;
+    box-shadow:none;
+}
     /* .auth .link {
         display: none;
     } */
